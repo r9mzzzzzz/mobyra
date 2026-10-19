@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark only">
+<meta name="theme-color" content="#050505">
+<title>Mobyr Trade</title>
+<meta name="description" content="Apprends à trader le NASDAQ pour de vrai : une méthode simple, expliquée pas à pas et appliquée en direct.">
+<script>document.documentElement.classList.add('js'); if (/SamsungBrowser/i.test(navigator.userAgent)) document.documentElement.classList.add('samsung');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="menu">
+  <a href="index.html" class="marque"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5M4 19h16M8 15l4-5 3 3 5-7"/></svg>Mobyr</a>
+  <nav><a href="index.html" class="actif" aria-current="page">Accueil</a><a href="moi.html">Moi</a><a href="formation.html">Formation</a><a href="mentorship.html">Mentorship 1:1</a></nav>
+  <a class="discord bouton plein" href="https://discord.gg/v6uGXShDFF" target="_blank" rel="noopener">Rejoindre le Discord</a>
+  <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><svg viewBox="0 0 24 24"><line class="l1" x1="6" y1="9" x2="18" y2="9"/><line class="l2" x1="6" y1="15" x2="18" y2="15"/></svg></button>
+</header>
+<div class="feuille"><a class="lien actif" href="index.html">Accueil</a><a class="lien" href="moi.html">Moi</a><a class="lien" href="formation.html">Formation</a><a class="lien" href="mentorship.html">Mentorship 1:1</a><a class="bouton plein" href="https://discord.gg/v6uGXShDFF" target="_blank" rel="noopener">Rejoindre le Discord</a></div>
+<main>
+<section class="hero">
+  <div class="scene" aria-hidden="true">
+    <!-- Photo ChatGPT : img/fond-ordinateur.jpg (paysage), img/fond-telephone.jpg (portrait). En attendant, une scène dessinée. -->
+    <canvas></canvas>
+    <picture><source media="(max-width:760px)" srcset="img/fond-telephone.jpg"><img src="img/fond-ordinateur.jpg" alt=""></picture>
+  </div>
+  <div class="voile" aria-hidden="true"></div>
+  <div class="conteneur">
+    <div class="contenu">
+      <h1 class="mots vu" data-delai=".2">Apprends à trader <em>pour de vrai.</em></h1>
+      <p class="chapeau entree" style="animation-delay:.8s">Une méthode simple sur le NASDAQ, expliquée pas à pas et appliquée en direct, pour te rendre autonome.</p>
+      <div class="boutons entree" style="animation-delay:1s">
+        <a class="bouton plein" href="formation.html">Voir la formation</a>
+        <a class="bouton verre" href="#methode">Comment ça marche</a>
+      </div>
+    </div>
+  </div>
+  <div class="defiler entree" style="animation-delay:1.4s"><i></i>Faites défiler</div>
+</section>
+
+<section class="bloc centre" id="methode">
+  <div class="conteneur">
+    <p class="lecture">Une seule stratégie. Des zones claires, un risque défini avant chaque trade, et <em>jamais de martingale.</em> Je te montre exactement ce que je fais, en direct, jusqu'à ce que tu le fasses seul.</p>
+  </div>
+</section>
+
+<section class="scene-graphe" aria-label="Un trade expliqué en trois temps">
+  <div class="colle">
+    <div>
+      <div class="etapes-graphe">
+        <div class="etape-g on"><span class="num">01 · LA ZONE</span><h2>Je repère la zone.</h2><p>Le prix revient sur une zone que j'ai tracée avant l'ouverture. Je n'invente rien en direct.</p></div>
+        <div class="etape-g"><span class="num">02 · L'ENTRÉE</span><h2>J'entre, risque défini.</h2><p>Stop et objectif posés avant d'entrer. Je sais ce que je risque avant de cliquer.</p></div>
+        <div class="etape-g"><span class="num">03 · LA SORTIE</span><h2>Je laisse courir.</h2><p>Pas de panique, pas de sortie au hasard. Le plan décide, pas l'émotion.</p></div>
+      </div>
+      <div class="points" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+    </div>
+    <div class="ecran">
+      <div class="barre"><span class="pastille"><i></i><i></i><i></i></span><b>NQ1!</b><span>1m</span><span class="masque-tel">E-mini Nasdaq-100 Futures</span><span class="masque-tel">Indicateurs</span></div>
+      <canvas aria-label="Graphique NASDAQ en 1 minute avec une position longue"></canvas>
+    </div>
+  </div>
+</section>
+
+<section class="bloc centre">
+  <div class="conteneur">
+    <span class="sur-titre revele">Les chiffres</span>
+    <h2 class="mots">Des résultats, <em>pas des promesses.</em></h2>
+    <div class="chiffres">
+      <div class="verre-carte revele"><strong><span class="compteur" data-fin="20000">20 000</span> $</strong><span>de payouts en 4 mois</span></div>
+      <div class="verre-carte revele" style="transition-delay:.1s"><strong><span class="compteur" data-fin="10">10</span>+</strong><span>personnes accompagnées</span></div>
+      <div class="verre-carte revele" style="transition-delay:.2s"><strong>1</strong><span>seule stratégie</span></div>
+    </div>
+    <div class="boutons revele"><a class="bouton verre" href="moi.html">Voir mes résultats</a></div>
+  </div>
+</section>
+
+<section class="bloc centre">
+  <div class="conteneur">
+    <span class="sur-titre revele">Deux façons d'apprendre</span>
+    <h2 class="mots">Choisis <em>ton rythme.</em></h2>
+    <div class="deux-offres">
+      <a class="offre-lien verre-carte revele" href="formation.html"><span class="fleche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <span class="sur-titre">La formation</span><h3 style="font-size:28px">Vidéos, signaux et chat.</h3><p>Toute la stratégie, mes trades en direct et un chat pour te corriger. Accès à vie.</p>
+        <div class="prix-court">150 €<s>300 €</s></div></a>
+      <a class="offre-lien verre-carte revele" style="transition-delay:.1s" href="mentorship.html"><span class="fleche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <span class="sur-titre">Mentorship 1:1</span><h3 style="font-size:28px">Un suivi personnel.</h3><p>Un call par semaine avec moi, un plan sur mesure et la revue de ton journal.</p>
+        <div class="prix-court">500 €<s>1 000 €</s></div></a>
+    </div>
+    <p class="avertissement revele">Prix de lancement jusqu'au 20 octobre.</p>
+  </div>
+</section>
+<section class="cloture centre">
+  <div class="halo" aria-hidden="true"></div>
+  <div class="conteneur">
+    <h2 class="mots" style="max-width:14ch;margin-inline:auto">Prêt à trader avec une <em>vraie méthode</em> ?</h2>
+    <p class="chapeau revele">Rejoins le Discord gratuit : annonces, suivi, et ticket pour la formation ou le 1:1.</p>
+    <div class="boutons revele"><a class="bouton plein" href="https://discord.gg/v6uGXShDFF" target="_blank" rel="noopener">Rejoindre le Discord</a><a class="bouton verre" href="mailto:contact@mobyr.trade">Me contacter</a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="conteneur">
+    <nav><a href="index.html">Accueil</a><a href="moi.html">Moi</a><a href="formation.html">Formation</a><a href="mentorship.html">Mentorship 1:1</a></nav>
+    <p>© 2026 Mobyr Trade · contact@mobyr.trade</p>
+    <p>Le trading comporte un risque de perte en capital. Les performances passées ne préjugent pas des performances futures. Aucun contenu de ce site ne constitue un conseil en investissement.</p>
+  </div>
+</footer>
+<script src="assets/graphe.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
